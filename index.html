@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <section id="header">
+        <div class="header container">
+            <h1>Weather App</h1>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="main container">
+            <div class="city-search flex">
+                <form>
+                    <input class="city-input" type="text" placeholder="Search for a City">
+                    <button class="search-btn" type="submit">Search</button>
+                </form>
+                <span class="errorMsg"></span>
+            </div>
+            <div class="city-weather grid"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
